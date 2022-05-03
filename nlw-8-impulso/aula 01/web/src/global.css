@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    @apply bg-orange-700 p-2 m-2 rounded-md text-[#82e657] font-bold hover:bg-green-600 hover:text-orange-400 transition-colors;
+
+}
